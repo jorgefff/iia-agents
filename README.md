@@ -22,12 +22,16 @@ To run the game you need:
 * Python >= 3.5
 * pygame >= 1.9.2b6
 
-## Usage:
+## Usage examples:
 
-examples:  
-python3 start.py -s StudentAgent  # Intended use  
-python3 start.py                  # play the game with basic agent on a random world  
-python3 start.py -m mapa4.bmp     # use a specified world map  
-python3 start.py -d 1             # show a log of information messages (and above)  
-python3 start.py -d 0 -v          # run fast without video, show debug log  
+### Intended use
+python3 start.py -s StudentAgent
+### play the game with basic agent on a random world  
+python3 start.py
+### use a specified world map  
+python3 start.py -m mapa4.bmp
+### show a log of information messages (and above)  
+python3 start.py -d 1
+### run fast without video, show debug log  
+python3 start.py -d 0 -v
 
